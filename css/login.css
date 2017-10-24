@@ -1,0 +1,56 @@
+.main{
+	height: 800px;
+}
+.main .m-left{
+	width: 400px;
+	height: 500px;
+	margin-top: 130px;
+}
+.m-right{
+	width: 465px;
+	height: 620px;
+	background-color: #fff;
+	margin-top: 85px;
+	padding: 0 16px;
+}
+.main .m-right h2{
+	height: 100px;
+	font: bold 30px/100px 'Microsoft Yahei';
+	text-indent: 25px;
+}
+.main .m-right input{
+	width: 448px;
+	height: 58px;
+	border: 1px solid #d8d8d8;
+	font-family: 'Microsoft Yahei';
+	font-size: 24px;
+	text-indent: 50px;
+}
+.main .m-right .txt{
+	background: url(../images/icon.png) 0px 3px no-repeat;
+}
+.main .m-right .pwd{
+	margin-top: 34px;
+	background: url(../images/icon.png) 1px -61px no-repeat;
+}
+.main .m-right .remember{
+	height: 100px;
+	font:normal 24px/100px 'Microsoft Yahei';
+}
+.main .m-right .remember input{
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+}
+.main .m-right .login-btn{
+	text-indent: 0px;
+	width: 450px;
+	height: 60px;
+	font:normal 24px/60px 'Microsoft Yahei';
+	color: #fff;
+	background-color: #e60012;
+}
+.main .m-right .other{
+	height: 130px;
+	font:normal 20px/130px 'Microsoft Yahei';
+}
