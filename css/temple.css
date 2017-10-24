@@ -1,0 +1,112 @@
+html,body,ul,li,dt,p,h1,h2,h3,form,img{
+	margin:0;padding:0
+}
+img{
+	border: none;
+}
+ul,ol{
+	list-style: none;
+}
+input{
+	padding-top: 0;
+	padding-bottom: 0;
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-size: 12px;
+	font-family: 'Microsoft Yahei';
+	color: #4c4c4c;
+	background-color: #fae8c8;
+}
+.center{
+	width: 1000px;
+	margin: 0 auto;
+}
+.qiangd{
+	font-size: 18px;
+	color: #ff3232;
+}
+/*头栏---------------------------*/
+.top{
+	height: 47px;
+	background-color: #e9e8e8;
+}
+.top .top-c{
+	height: 47px;
+	line-height: 47px;
+}
+/*banner栏-----------------------------*/
+.logo{
+	height: 99px;
+	background-color: #c70202;
+}
+.logo .lo-c{
+	height: 99px;
+}
+.logo .lo-c h1 a{
+	display:inline-block;
+	width: 221px;
+	height: 97px;
+	background: url(../images/logo.png);
+	text-indent: -12em;
+	overflow: hidden;
+}
+.logo .lo-center{
+	width: 296px;
+	height: 28px;
+	background-color: #fff;
+	padding: 1px;
+	margin: 34px 0 0 70px;
+	border-radius: 5px;
+	overflow: hidden;
+
+}
+.logo .lo-center .txt{
+	width: 236px;
+	height: 28px;
+	outline: none;
+}
+.logo .lo-center .btn{
+	width: 60px;
+	height: 28px;
+	background-color: #c70202;
+	color: #fff;
+	border-radius: 0 5px 5px 0;
+}
+.logo .lo-right {
+	margin-top: 35px;
+}
+.logo .lo-right li{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 20px;
+}
+.logo .lo-right a{
+	color: #fff;
+}
+.logo .lo-right input{
+	width: 56px;
+	height: 30px;
+	font-size: 14px;
+}
+.foot{
+	height: 273px;
+	padding: 10px;
+	background-color: #2f2f2f;
+}
+.foot .f-border{
+	height: 273px;
+	border: 1px solid #ffd283;
+}
+.foot .f-left{
+	margin-top: 55px;
+	color: #ccc;
+}
+.foot .f-left li{
+	height: 33px;
+	line-height: 33px;
+}
