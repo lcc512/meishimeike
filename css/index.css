@@ -2,6 +2,10 @@
 .active-element{
 	border-bottom: 1px solid red;
 }
+.active-element2{
+	color: #fff!important;
+	background-color: red;
+}
 .p-lg{
 	height: 36px;
 	font: bold 18px/36px 'Microsoft Yahei';
@@ -126,4 +130,48 @@
 	width: 334px;
 	height: 57px;
 	background-color: #fff;
+}
+/*多个图片轮播*/
+.food{
+	overflow: hidden;
+}
+.food .f-nav{
+	background-color: #fff;
+}
+.food .f-nav li{
+	float: left;
+	height: 42px;
+	width: 103px;
+	text-align: center;
+	font: bold 22px/42px 'Microsoft Yahei';
+}
+.food .f-nav li a{
+	color: #666;
+}
+.food .f-img{
+	width: 1010px;
+}
+.food .f-img li{
+	width: 167px;
+	height: 167px;
+	background-color: #fff;
+	float: left;
+	line-height: 167px;
+	text-align: center;
+	position: relative;
+
+}
+.food .f-img li img{
+	vertical-align: middle;
+}
+.food .f-img li span{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 60px;
+	width: 167px;
+	font: bold 18px/60px 'Microsoft Yahei';
+	color: #666;
+	line-height: 60px;
+	background-color: rgba(255,255,255,0,6);
 }
