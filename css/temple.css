@@ -21,6 +21,12 @@ body{
 	color: #4c4c4c;
 	background-color: #fae8c8;
 }
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
 .clearfix:after{
 	content: "";
 	height: 0;
@@ -49,11 +55,15 @@ body{
 	height: 47px;
 	line-height: 47px;
 }
+/*小图标------------------------------*/
 .qq-icon{
 	background: url(../images/icon.png) 1px -153px no-repeat;
 }
 .weibo-icon{
 	background: url(../images/icon.png) -1px -121px no-repeat;
+}
+.email-icon{
+	background: url(../images/icon.png) -1px -180px no-repeat;
 }
 
 /*banner栏-----------------------------*/
@@ -98,7 +108,7 @@ body{
 	margin-top: 35px;
 }
 .logo .lo-right li{
-	float: left;
+	display: inline-block;
 	height: 30px;
 	line-height: 30px;
 	margin-left: 20px;

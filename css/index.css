@@ -1,0 +1,30 @@
+.active-element{
+	border-bottom: 1px solid red;
+}
+.h2title{
+	height: 76px;
+	font: bold 24px/76px 'Microsoft Yahei';
+	text-align: center;
+}
+.nav{
+	height: 77px;
+	background-color: #fff;
+}
+.nav .nav-c{
+	height: 77px;
+
+}
+.nav .nav-c li{
+	display: inline-block;
+	height: 77px;
+	font:normal 18px/77px 'Microsoft Yahei';
+	margin-right: 25px;
+
+}
+.nav .nav-c li a{
+	color: #666;
+	text
+}
+.nav .nav-c li a:hover{
+	color: red;
+}

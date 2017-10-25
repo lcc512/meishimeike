@@ -54,3 +54,16 @@
 	height: 130px;
 	font:normal 20px/130px 'Microsoft Yahei';
 }
+.main .m-right .login-type li{
+	height: 30px;
+  	font-size: 14px;
+  	line-height: 30px;
+  	padding-left: 28px;
+
+}
+.main .m-right .login-type a{
+	color: #666;
+}
+.main .m-right .login-type .login-element2{
+	margin-left: 107px;
+}
