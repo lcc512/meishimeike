@@ -1,3 +1,4 @@
+/*公用类*/
 .active-element{
 	border-bottom: 1px solid red;
 }
@@ -10,11 +11,21 @@
 	text-indent: 12px;
 	font: normal 12px 'Microsoft Yahei';
 }
+
 .h2title{
 	height: 76px;
 	font: bold 24px/76px 'Microsoft Yahei';
 	text-align: center;
+	position: relative;
 }
+.link-more{
+	position: absolute;
+	font: 12px/76px 'Microsoft Yahei';
+	color: #666;
+	top: 0;
+	right: 0;
+}
+/*标题导航*/
 .nav{
 	height: 77px;
 	background-color: #fff;
@@ -37,6 +48,7 @@
 .nav .nav-c li a:hover{
 	color: red;
 }
+/*中间轮播图片*/
 .banner ul {
 	width: 1320px;
 	margin: 0 auto;
@@ -50,6 +62,8 @@
 }
 .banner ul img{
 	vertical-align: middle;
+	width: 330px;
+	height: 280px;
 }
 .banner .desc{
 	width: 330px;
@@ -58,4 +72,58 @@
 	position: absolute;
 	bottom: 0;
 	left: 0;
+}
+/*中间搜索*/
+.search{
+	height: 100px;
+	background-color: #3f3a32;
+	overflow: hidden;
+}
+.search .s-center{
+	height: 77px;
+	display: inline-block;
+	/*width: 728px;*/
+	background-color: #c70202;
+	margin-top:12px;
+	margin-left: 400px; 
+}
+.search .s-center .txt{
+	width: 555px;
+	height: 77px;
+	border: none;
+	outline: none;
+	font: 18px 'Microsoft Yahei';
+	text-indent: 45px;
+}
+.search .s-center .btn{
+	width: 173px;
+	height: 77px;
+	border: none;
+	outline: none;
+	background-color: #c70202;
+	color: #fff;
+	font: 18px 'Microsoft Yahei';
+}
+/*10月发布展示*/
+.menu{
+	overflow: hidden;
+}
+.menu .img1{
+	width: 1002px;
+}
+.menu .img1 li{
+	background-color: gold;
+	float: left;
+}
+.menu .img1 li a{
+	width: 334px;
+	height: 208px;
+}
+.menu .img1 img{
+	vertical-align: middle;
+}
+.menu .img1 .word1{
+	width: 334px;
+	height: 57px;
+	background-color: #fff;
 }

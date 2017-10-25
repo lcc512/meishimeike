@@ -83,7 +83,7 @@ body{
 	overflow: hidden;
 }
 .logo .lo-center{
-	width: 296px;
+	/*width: 296px;*/
 	height: 28px;
 	background-color: #fff;
 	padding: 1px;
