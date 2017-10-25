@@ -1,6 +1,15 @@
 .active-element{
 	border-bottom: 1px solid red;
 }
+.p-lg{
+	height: 36px;
+	font: bold 18px/36px 'Microsoft Yahei';
+	text-indent: 12px;
+}
+.p-sm{
+	text-indent: 12px;
+	font: normal 12px 'Microsoft Yahei';
+}
 .h2title{
 	height: 76px;
 	font: bold 24px/76px 'Microsoft Yahei';
@@ -23,8 +32,30 @@
 }
 .nav .nav-c li a{
 	color: #666;
-	text
+	
 }
 .nav .nav-c li a:hover{
 	color: red;
+}
+.banner ul {
+	width: 1320px;
+	margin: 0 auto;
+}
+.banner ul li{
+	float: left;
+	width: 330px;
+	height: 280px;
+	background-color: gold;
+	position: relative;
+}
+.banner ul img{
+	vertical-align: middle;
+}
+.banner .desc{
+	width: 330px;
+	height: 63px;
+	background-color: rgba(255,255,255,0.6);
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
